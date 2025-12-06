@@ -257,7 +257,7 @@ app.use(helmet({
 const allowedOrigins = [
   process.env.FRONTEND_URL,
   'http://localhost:3000',
-  'https://your-frontend.vercel.app' // Will update this later
+  'https://multiauth-system-frontend.vercel.app/' // Will update this later
 ];
 
 app.use(cors({
