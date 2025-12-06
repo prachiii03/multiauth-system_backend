@@ -4,7 +4,7 @@
   "description": "Role-based permission system backend",
   "main": "src/server.js",
   "engines": {
-    "node": "24.x"
+    "node": "18.x"
   },
   "scripts": {
     "start": "node src/server.js",
