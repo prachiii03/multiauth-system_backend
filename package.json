@@ -1,24 +1,28 @@
 {
   "name": "role-permission-backend",
   "version": "1.0.0",
-  "description": "Role and Permission System Backend",
+  "description": "Role-based permission system backend",
   "main": "src/server.js",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "seed": "node src/utils/seed.js"
+    "seed": "node src/utils/seed.js",
+    "vercel-build": "echo 'Build complete'"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^7.0.0",
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^9.0.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "helmet": "^7.0.0",
-    "morgan": "^1.10.0",
-    "dotenv": "^16.0.3"
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.0.1"
   }
 }
